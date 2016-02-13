@@ -38,6 +38,8 @@ steve_jobs = media.Movie("Steve Jobs",
                          "https://www.youtube.com/watch?v=ufMgQNCXy_M")
 
 movies = [ex_machina, star_wars_vii, mad_max, southpaw, the_revenant, steve_jobs]
+
+# Uses list of movie instances as input to generate an HTML file and open it in the browser.
 fresh_tomatoes.open_movies_page(movies)
 #print(media.Movie.VALID_RATINGS)
 #print(media.Movie.__doc__)
