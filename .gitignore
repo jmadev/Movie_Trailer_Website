@@ -45,3 +45,12 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Compiled Python files
+*.pyc
+
+# HTML
+*.html
+
+# Previous files from Programming Foundations with Python course
+/inheritance.py
